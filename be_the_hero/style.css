@@ -1,0 +1,74 @@
+html, body, #root {
+  height: 100%;
+}
+body
+{
+    background: rgb(0,47,117);
+background: linear-gradient(357deg, rgba(0,47,117,1) 4%, rgba(0,97,150,1) 65%, rgba(122,106,74,1) 75%, rgba(142,105,59,1) 81%, rgba(137,100,61,1) 83%, rgba(94,58,72,1) 94%, rgba(66,47,77,1) 98%);
+    background-attachment: fixed;
+    color: #eeeeee;
+    font-family: georgia, serif;
+margin:25px;
+}
+
+
+p
+{
+    color: #eeeeee;
+font-family: verdana, sans-serif;
+}
+
+a.squiffy-link
+{
+
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffe451;
+    cursor: pointer;
+}
+a.squiffy-link:hover
+{
+    text-decoration: underline;
+}
+a.squiffy-link.disabled
+{
+
+    text-decoration: inherit;
+    color: inherit !important;
+    cursor: inherit;
+}
+a.squiffy-header-link
+{
+font-family: verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffe451;
+    cursor: pointer;
+
+}
+div#squiffy-container
+{
+    background: rgb(0,47,117,.6);
+padding:15px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, serif;
+}
+div#squiffy-header
+{
+    font-size: 14px;
+    text-align: right;
+}
+div#squiffy
+{
+    font-size: 18px;
+}
+hr {
+border:0;
+    border-top: 1px solid rgba(0,47,117,.5);
+border-bottom: 1px solid rgba(0,97,150,.5);
+    height: 0;
+
+    margin-top: 16px; margin-bottom: 16px;
+}
